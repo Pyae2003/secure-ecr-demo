@@ -1,11 +1,9 @@
-
 name: Secure ECR Pipeline
 
 on:
   push:
     branches:
       - main
-
   workflow_dispatch:
 
 permissions:
@@ -16,10 +14,6 @@ jobs:
   build-and-push:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
-      id-token: write
 
     env:
       AWS_REGION: ap-southeast-1
