@@ -18,7 +18,7 @@ function App() {
         <div>
           <h1>This is lee ball ngr lo ma thar hello Hel" This is OIDC Text!</h1>
           <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
+            Edit <code>src/App.jsx</code> and safdfdfve to test <code>HMR</code>
           </p>
         </div>
         <button
